@@ -13,6 +13,6 @@ export class HomePage {
   }
 
   ionViewDidLoad() {
-    this.iab.create('http://sistema.escolamontessorisemear.com.br/','_self','location=no');
+    this.iab.create('http://sistema.escolamontessorisemear.com.br/','_self','location=no,zoom=no');
   }
 }
